@@ -1,0 +1,235 @@
+/*============== common area css ============== */
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+marquee{
+    background: #c0c0c0;
+    padding: 20px 0
+}
+
+/*============== header area css ============== */
+#header{
+    width: 100%;
+}
+#header .forColor{
+    background-color: rgb(176, 32, 38);
+}
+#header .inner_header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+#header .inner_header nav .logoDiv #logo1{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+#header .inner_header nav .logoDiv #logo2{
+    width: 300px;
+    height: 70px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+#header .inner_header nav .mainNave ul{
+    list-style: none;
+    text-align: right;
+    margin-top: 20px;
+}
+#header .inner_header nav .mainNave ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+#header .inner_header nav .mainNave ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+#header .inner_header nav .mainNave ul li a:hover{
+    color: #c0c0c0;
+}
+/*============== body area css ============== */
+#header .welcome{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0;
+}
+#header .mainBody .inner_mainBody{
+    display: flex;
+    margin-top: 50px;
+}
+#header .mainBody .inner_mainBody .left_div{
+    width: 40%;
+}
+#header .mainBody .inner_mainBody .left_div img{
+    width: 100%;
+    height: 380px;
+}
+#header .mainBody .inner_mainBody .right_div{
+    box-sizing: border-box;
+    width: 60%;
+    padding-left: 60px;
+}
+#header .mainBody .inner_mainBody .right_div h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+#header .mainBody .inner_mainBody .right_div h4{
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+#header .mainBody .inner_mainBody .right_div h4 span a{
+    text-decoration: none;
+    color: rgb(197, 66, 22);
+    font-weight: 800;
+}
+#header .mainBody .inner_mainBody .right_div .choose_area h2{
+    font-weight: 300;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+#header .mainBody .inner_mainBody .right_div .choose_area form input[type='button']{
+    font-size: 20px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+/*
+#header .mainBody .inner_mainBody .right_div .choose_area form input[type='button']{
+    color: #fff;
+    background: #000;
+}
+*/
+#header .mainBody .inner_mainBody .right_div .choose_area form .btn1{
+    width: 176px;
+}
+#header .mainBody .inner_mainBody .right_div .choose_area form .btn2{
+    width: 176px;
+}
+#header .mainBody .inner_mainBody .right_div .choose_area form .btn3{
+    width: 176px;
+}
+#header .mainBody .inner_mainBody .right_div .choose_area form .btn4{
+    width: 100%;
+}
+#header .mainBody .inner_mainBody .right_div .choose_area form .lMh2{
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+#header .mainBody .inner_mainBody .right_div .choose_area form .information{
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+#header .mainBody .inner_mainBody .right_div .choose_area form input[type='text'],#header .mainBody .inner_mainBody .right_div .choose_area form input[type='email']{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    font-size: 20px;
+    outline: none;
+}
+#header .mainBody .inner_mainBody .right_div .choose_area form label{
+    font-size: 20px;
+}
+#header .mainBody .inner_mainBody .right_div .choose_area form button{
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    background: rgb(176, 32, 38);
+}
+#header .mainBody .inner_mainBody .right_div .choose_area form button:hover{
+    background: #000;
+    color: #fff;
+}
+/*============== footer area css ============== */
+#footer{
+    width: 100%;
+    height: 230px;
+    background: rgb(89, 87, 87);
+    margin-top: 50px;
+    padding: 50px 0;
+}
+#footer .inner_footer{
+    display: flex;
+}
+#footer .inner_footer .footer_left_div{
+    width: 60%;
+    margin-right: 50px;
+}
+#footer .inner_footer .footer_left_div ul li{
+    list-style: number;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+#footer .inner_footer .footer_left_div ul li:last-child{
+    margin-bottom: 30px;
+}
+#footer .inner_footer .footer_right_div ul li{
+    list-style: none;
+    margin-bottom: 24px;
+}
+#footer .inner_footer .footer_right_div ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 22px;
+    transition: 0.3s;
+}
+#footer .inner_footer .footer_right_div ul li a:hover{
+    color: #fff;
+}
+#footer .footerp{
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.clickedBtn{
+    color: #fff;
+    background: #000;
+}
+ /*============== about page body area css ============== */
+ #header .welcome{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0;
+}
+#htb .fist_div{
+    margin-bottom: 60px;
+}
+#htb .fist_div h1, #htb .second_div h1{
+    font-size: 32px;
+}
+#htb .fist_div ul{
+    margin-top: 20px;
+}
+#htb .fist_div ul li, #htb .second_div ul li{
+    list-style: number;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 16px;
+}
